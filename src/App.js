@@ -1,12 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
+import Home from './components/home'
+
+
 import './App.css';
+import Header from './components/header';
 
 function App() {
   return (
     <div className="App">
-      hello vikky
+      <Header />
+      <Home />
     </div>
   );
 }
